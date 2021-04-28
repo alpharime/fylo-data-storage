@@ -194,3 +194,47 @@ body {
     font-weight: 700;
     font-size: 30px;
 }
+@media(max-width:501px) {
+    body {
+        padding: 10%;
+        max-width: 375xpx;
+        height: 100%;
+        width: 375px;
+        background-image: url(./images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+    }
+    .main {
+        grid-row: 2/6;
+    }
+    .logo {
+        position: absolute;
+        width: 250px;
+        padding-left: 50px;
+        top: 120px;
+    }
+    .text {
+        position: absolute;
+        display: flex;
+        top: 300px;
+        right: 50px;
+        width: 380px;
+        height: 150px;
+    }
+    .text-p {
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .triangle {
+        position: absolute;
+        left: 150px;
+        top: 410px;
+        border: none;
+        width: 30px;
+    }
+    .inner-tri {
+        width: 150px;
+        border-radius: 7px;
+    }
+}
