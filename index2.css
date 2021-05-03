@@ -5,7 +5,7 @@
             background-color: hsl(229, 57%, 11%);
             background-blend-mode: lighten;
             background-repeat: no-repeat;
-            background-position: 0 300px;
+            background-position: 100% 120%;
             display: grid;
             gap: 10px;
             grid-template-rows: repeat(3, 1fr) repeat(2, 1fr);
